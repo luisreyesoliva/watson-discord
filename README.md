@@ -5,8 +5,11 @@
 ![dotenv version](https://img.shields.io/badge/dotenv-6.2.0v-yellow)
 
 ## Resumen
-En este Code Pattern extenderás las capacidades de tu bot de Discord dotándole de inteligencia con recursos de Watson para poder obtener respuestas y establecer un diálogo según lo configurado en el asistente virtual desplegado en IBM Cloud.
-También asegurarás que tu bot está siempre activo desplegándolo en un cluster de Kubernetes. Lo integraremos con la plataforma de mensajería y llamadas de Discord, colocándolo en un servidor para clientes y colegas, todo esto mediante la programación sencilla en Node.js. 
+En este Code Pattern extenderás las capacidades de un bot de Discord dotándole de inteligencia artificial con diferentes recursos de Watson para, entre otras cosas, poder traducir texto, identificar el tono o incluso establecer un diálogo inteligente según lo configurado en el asistente virtual implementado con Watson Assistant.
+
+Todos estos servicios de Watson los puedes desplegar de manera gratuita en en IBM Cloud.
+
+También haremos que el bot está siempre activo desplegándolo en un cluster de Kubernetes. Lo integraremos con la plataforma de mensajería y llamadas de Discord, colocándolo en un servidor para clientes y colegas, todo esto mediante la programación sencilla en Node.js. 
 
 ## Tecnologias
 
