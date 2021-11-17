@@ -55,6 +55,7 @@ Para que nuestro bot tenga vida permanente, utilizaremos Docker para generar la 
 -	Las respuestas de las APIs son recibidas y acomodadas por la app.
 -	El bot entrega las respuestas al usuario en Discord.
 
+Nota.- A diferencia de como viene en el diagrama, al final del presente lab llevaremos también nuestra aplicación Node a IBM Cloud, desplegándola en un cluster de Kubernetes 
 
 ## Instrucciones y Pasos
 
