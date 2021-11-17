@@ -1,0 +1,22 @@
+# Update <NOMBRE-IMAGEN-BOT> values before use
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: watson-discord
+  labels:
+    app: watson-discord
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: watson-discord
+  template:
+    metadata:
+      labels:
+        app: watson-discord
+    spec:
+      containers:
+      - name: watson-discord
+        image: <NOMBRE-IMAGEN-BOT>
+        ports:
+        - containerPort: 3000
